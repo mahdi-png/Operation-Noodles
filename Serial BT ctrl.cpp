@@ -4,10 +4,10 @@ BluetoothSerial SerialBT;
 
 // Pin Definitions
 const int LED_PIN = 2;  // D2 pin for LED
-const int segPins[] = {26, 27, 13, 12, 14, 25, 33};  // GPIO pins for 7-segment display segments a-g
+const int segPins[] = {26, 27, 13, 12, 14, 25, 33};  // GPIO pins for 7-segment display a->g
 
 // Variables
-bool onState = false;                 // Tracks if the LED is on or off
+bool onState = false;                  // Tracks if the LED is on or off
 bool blinking = false;                 // Tracks if the LED is in blinking mode
 unsigned long previousMillis = 0;      // the last time LED was updated
 int blinkTimes = 0;                    // Number of times to blink
